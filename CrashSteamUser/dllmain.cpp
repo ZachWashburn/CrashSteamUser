@@ -101,7 +101,7 @@ int __fastcall hk_CMsgSteamNetworkingP2PRendezvous_ConnectionClosed_set_debug(CM
     //return 0;
     char buffer[1];
     memset(buffer, '\n', sizeof(buffer));
-    const char* lol = "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nu are ratted kid!";
+    const char* lol = "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ntest 123";
    // buffer[sizeof(buffer) - 1] = '\0';
     (reinterpret_cast<decltype(&hk_CMsgSteamNetworkingP2PRendezvous_ConnectionClosed_set_debug)>(oCMsgSteamNetworkingP2PRendezvous_ConnectionClosed_set_debug))(_this, 0, lol);
    
@@ -490,200 +490,9 @@ int __fastcall hk_GetByteSize(CMsgSteamNetworkingP2PRendezvous* msg, void*)
     //msg->set_to_connection_id(-1);
     //msg->set_from_connection_id(-1);
     //msg->set_ice_enabled(false);
-    
+
 
     // set to identity
-#if 1
-
-    typedef const char* (__cdecl* anim_func_t)(void);
-    static anim_func_t animfunctions[] = { dancemangifanim, rickrollrollgifanim, polegifanim, hipsgifanim, breakdancegifanim };
-
-    static int nIteration = 0;
-    static int nCurrAnimFunc = 0;
-
-
-    nIteration++;
-
-    if (nIteration >= 240)
-    {
-        nIteration = 0;
-        nCurrAnimFunc++;
-        if (nCurrAnimFunc >= ARRAYSIZE(animfunctions))
-            nCurrAnimFunc = 0;
-    }
-
-    int* pRend = reinterpret_cast<int*>(msg);
-
-    const char * manifesto[] = { "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=\n"
-        "The following was written shortly after my arrest... \n"
-        "\n"
-        "                       \\/\\The Conscience of a Hacker/\\/\n"
-        "\n"
-        "                                      by\n"
-        "\n"
-        "                               +++The Mentor+++\n"
-        "\n"
-        "                          Written on May 26, 2022\n"
-        "=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=\n"
-        "\n"
-        "        Another one got caught today, it's all over the papers.  \"Teenager\n"
-        "Arrested in Computer Crime Scandal\", \"Hacker Arrested after Bank Tampering\"...\n"
-        "        Damn kids.  They're all alike. I'll take your steam accounts...\n"
-        "\n"
-        "        But did you, in your three-piece psychology and 1950's technobrain,\n"
-        "ever take a look behind the eyes of the hacker?  Did you ever wonder what\n"
-        "made him tick, what forces shaped him, what may have molded him?\n"
-        "        I am a hacker, enter my world...\n"
-        "        Mine is a world that begins with school... I'm smarter than most of\n"
-        "the other kids, this crap they teach us bores me...\n"
-        "        Damn underachiever.  They're all alike.\n"
-        "\n"
-        "        I'm in junior high or high school.  I've listened to teachers explain\n"
-        "for the fifteenth time how to reduce a fraction.  I understand it.  \"No, Ms.\n"
-        "Smith, I didn't show my work.  I did it in my head...\"\n"
-        "        Damn kid.  Probably copied it.  They're all alike.\n"
-        "\n"
-        "        I made a discovery today.  I found a computer.  Wait a second, this is\n"
-        "cool.  It does what I want it to.  If it makes a mistake, it's because I\n"
-        "screwed it up.  Not because it doesn't like me...\n"
-        "                Or feels threatened by me...\n"
-        "                Or thinks I'm a smart ass...\n"
-        "                Or doesn't like teaching and shouldn't be here...\n"
-        "        Damn kid.  All he does is play games.  They're all alike.\n"
-        "\n"
-        "        And then it happened... a door opened to a world... rushing through\n"
-        "the phone line like heroin through an addict's veins, an electronic pulse is\n"
-        "sent out, a refuge from the day-to-day incompetencies is sought... a board is\n"
-        "found.\n"
-        "        \"This is it... this is where I belong...\"\n"
-        "        I know everyone here... even if I've never met them, never talked to\n"
-        "them, may never hear from them again... I know you all...\n"
-        "        Damn kid.  Tying up the phone line again.  They're all alike...\n"
-        "\n"
-        "        You bet your ass we're all alike... we've been spoon-fed baby food at\n"
-        "school when we hungered for steak... the bits of meat that you did let slip\n"
-        "through were pre-chewed and tasteless.  We've been dominated by sadists, or\n"
-        "ignored by the apathetic.  The few that had something to teach found us will-\n"
-        "ing pupils, but those few are like drops of water in the desert.\n"
-        "\n"
-        "        This is our world now... the world of the electron and the switch, the\n"
-        "beauty of the baud.  We make use of a service already existing without paying\n"
-        "for what could be dirt-cheap if it wasn't run by profiteering gluttons, and\n"
-        "you call us criminals.  We explore... and you call us criminals.  We seek\n"
-        "after knowledge... and you call us criminals.  We exist without skin color,\n"
-        "without nationality, without religious bias... and you call us criminals.\n"
-        "You build atomic bombs, you wage wars, you murder, cheat, and lie to us\n"
-        "and try to make us believe it's for our own good, yet we're the criminals.\n"
-        "\n"
-        "        Yes, I am a criminal.  My crime is that of curiosity.  My crime is\n"
-        "that of judging people by what they say and think, not what they look like.\n"
-        "My crime is that of outsmarting you, something that you will never forgive me\n"
-        "for.\n"
-        "\n"
-        "        I am a hacker, and this is my manifesto.  You may stop this individual,\n"
-        "but you can't stop us all... after all, we're all alike.\n"
-        "\n"
-        "                               +++The Mentor+++" };
-
-    char buffer[128 * 60];
-    memset(buffer, 0x00, sizeof(buffer));
-    memset(buffer, '\n', 70);
-    static auto GetAnimation = [](char buffer[], int nBufSize )
-    {
-        const int nRows = 70;
-        static bool bFlipFlop = false;
-        const int nColumns = 150;
-        static int nRotation = 0;
-        const char* szText = " Fuck Fl0m ";
-        int nOffset = nRows;
-        buffer[0] = '\n';
-
-        bFlipFlop ? nRotation++ : nRotation--;
-        
-        //if (nRotation >= nColumns || nRotation < 0)
-        //{
-        //    bFlipFlop = !bFlipFlop;
-        //    bFlipFlop ? nRotation++ : nRotation--;
-        //}
-
-         const int nTextSize = strlen(szText);
-         //int nMiddlePoint = (nColumns - nRotation) / 2;
-         int nTextStartPoint = (nColumns - nRotation) - nTextSize + 1;
-
-
-         if (nTextStartPoint < 0 || nTextStartPoint > (nColumns - nTextSize))
-         {
-             bFlipFlop = !bFlipFlop;
-             bFlipFlop ? nRotation++ : nRotation--;
-             bFlipFlop ? nRotation++ : nRotation--;
-             nTextStartPoint = (nColumns - nRotation) - nTextSize + 1;
-         }
-
-
-         for (int i = 0; i < nTextStartPoint; i++)
-             buffer[i + nOffset] = i % 2 ? '=' : '-';
-
-         memcpy(buffer + nOffset + nTextStartPoint, szText, nTextSize);
-
-         for (int i = nTextStartPoint + nTextSize; i < nColumns; i++)
-             buffer[i + nOffset] = i % 2 ? '=' : '-';
-
-         //buffer[nOffset] = '\n';
-        
-
-
-    };
-
-    GetAnimation(buffer, sizeof(buffer));
-
-    //memset(buffer, 'A', sizeof(buffer));
-    buffer[sizeof(buffer) - 1] = 0;
-    const char szStr[] = "ip:0.0.0.0" ;
-    void* str = init_std_release_string();
-#if 1
-    const char* szAnim = animfunctions[nCurrAnimFunc]();//rickrollrollgifanim();// dancemangifanim();//dancemangifanim();
-    int nstrlen = strlen(szAnim);
-    if (GetAsyncKeyState(VK_LMENU))
-    {
-        const char* rick_roll = rickrollrollgifanim();
-        _CopyStringSteam(str, rick_roll, strlen(rick_roll));
-    }
-    else
-        _CopyStringSteam(str, szAnim, strlen(szAnim));
-        
-
-
-
-    pRend[4] = (int)str;
-#endif
-    
-    //static int nVirtualPort = 0;
-    //msg->connect_request().set
-
-    
-#if 1
-    memset(buffer, '\r\u001b\n', sizeof(buffer));
-    //const char* szShit = "\u001b\u001b\u001b\u001b\u001b\u001b\u001b\u001b\u001b\u001b\u001b\u001b\u001b\u001b\u001b\u001b\u001b\u001b\u001b\u001b[31mstr:getriggityfuckfucked";
-    _CopyStringSteam(str, buffer, sizeof(buffer));
-    DWORD* std_string_obj = ((DWORD**)pRend)[4];
-    DWORD strSize = std_string_obj[4];
-
-
-    int v5 = std_string_obj[5];
-    char* buf = (char*)std_string_obj;//(char*)*std_string_obj;
-    int str_size = std_string_obj[4];
-    if (v5 >= 0x10)
-        buf = (char*)*std_string_obj;
-
-    buf[str_size] = '\r';
-    buf[str_size - 1] = '\r';
-    buf[str_size + 1] = '\r';
-    //for (int i = 0; i < (str_size + 1); i++)
-    //    *(buf + i) = 'A';
-    pRend[4] = (int)str;
-#endif
-#endif
-
     
 
     if (g_conn.m_ConnID != 0)
@@ -899,12 +708,7 @@ int __fastcall hk_Copy_Cert(CMsgSteamDatagramCertificateSigned* _this,void*, voi
         static char buffer[8192];
         memset(buffer, 'ннн', sizeof(buffer));
         buffer[sizeof(buffer) - 1] = 0;
-#if 0
-        msg.set_ca_key_id(INT64_MAX);
-        msg.set_cert(buffer);
-        msg.set_ca_signature("LOL FUCK YOU");
-        msg.set_private_key_data("LOL GET FUCKED FUCKO");
-#endif
+
 
         static DWORD* (__thiscall * CopyStringSteam)(void*, int*, int) = (DWORD * (__thiscall*)(void*, int*, int))MemoryTools::RelativeToAbsolute((void**)((char*)MemoryTools::PatternScanModule("steamnetworkingsockets.dll", "E8 ? ? ? ? 89 75 F0") + 1));
 
