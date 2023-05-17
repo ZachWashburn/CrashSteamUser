@@ -1,0 +1,44 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (libprotobuf-lite.vcxproj, libprotobuf.vcxproj, lite-test.vcxproj, protoc.vcxproj, tests.vcxproj, test_plugin.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  zip_writer.cc
+  subprocess.cc
+  python_generator.cc
+  plugin.pb.cc
+  plugin.cc
+  java_string_field.cc
+  java_shared_code_generator.cc
+  java_service.cc
+  java_primitive_field.cc
+  java_name_resolver.cc
+  java_message_field.cc
+  java_message.cc
+  java_lazy_message_field.cc
+  java_helpers.cc
+  java_generator_factory.cc
+  java_generator.cc
+  java_file.cc
+  java_field.cc
+  java_extension.cc
+  java_enum_field.cc
+  Generating Code...
+  Compiling...
+  java_enum.cc
+  java_doc_comment.cc
+  java_context.cc
+  cpp_string_field.cc
+  cpp_service.cc
+  cpp_primitive_field.cc
+  cpp_message_field.cc
+  cpp_message.cc
+C:\Users\user\Desktop\CrashSteamUser\protobuf-2.6.1rc1\src\google\protobuf\compiler\cpp\cpp_message.cc(692,7): warning C4065: switch statement contains 'default' but no 'case' labels
+  cpp_helpers.cc
+  cpp_generator.cc
+  cpp_file.cc
+  cpp_field.cc
+  cpp_extension.cc
+  cpp_enum_field.cc
+  cpp_enum.cc
+  command_line_interface.cc
+  code_generator.cc
+  Generating Code...
+  libprotoc.vcxproj -> C:\Users\user\Desktop\CrashSteamUser\protobuf-2.6.1rc1\vsprojects\Debug\libprotoc.lib

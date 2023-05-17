@@ -1,0 +1,17 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (libprotobuf.vcxproj, libprotoc.vcxproj, lite-test.vcxproj, protoc.vcxproj, tests.vcxproj, test_plugin.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  wire_format_lite.cc
+  stringprintf.cc
+  once.cc
+  common.cc
+  atomicops_internals_x86_msvc.cc
+  repeated_field.cc
+  message_lite.cc
+  zero_copy_stream_impl_lite.cc
+  zero_copy_stream.cc
+  coded_stream.cc
+  generated_message_util.cc
+  extension_set.cc
+  Generating Code...
+C:\Users\user\Desktop\CrashSteamUser\protobuf-2.6.1rc1\src\google\protobuf\extension_set.cc(74): warning C4715: 'google::protobuf::internal::`anonymous namespace'::is_packable': not all control paths return a value
+  libprotobuf-lite.vcxproj -> C:\Users\user\Desktop\CrashSteamUser\protobuf-2.6.1rc1\vsprojects\Debug\libprotobuf-lite.lib

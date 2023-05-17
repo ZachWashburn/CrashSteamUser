@@ -1,0 +1,13 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (libprotobuf-lite.vcxproj, libprotobuf.vcxproj, libprotoc.vcxproj, protoc.vcxproj, tests.vcxproj, test_plugin.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Generating unittest_import_lite.pb.{h,cc}...
+  Generating unittest_import_public_lite.pb.{h,cc}...
+  Generating unittest_lite.pb.{h,cc}...
+cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  unittest_lite.pb.cc
+  unittest_import_public_lite.pb.cc
+  unittest_import_lite.pb.cc
+  test_util_lite.cc
+  lite_unittest.cc
+  Generating Code...
+lite_unittest.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+  lite-test.vcxproj -> C:\Users\user\Desktop\CrashSteamUser\protobuf-2.6.1rc1\vsprojects\Debug\lite-test.exe

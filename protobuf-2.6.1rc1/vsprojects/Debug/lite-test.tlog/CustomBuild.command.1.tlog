@@ -1,0 +1,6 @@
+^C:\USERS\USER\DESKTOP\CRASHSTEAMUSER\PROTOBUF-2.6.1RC1\SRC\GOOGLE\PROTOBUF\UNITTEST_IMPORT_LITE.PROTO
+Debug\protoc -I../src --cpp_out=. ../src/google/protobuf/unittest_import_lite.proto
+^C:\USERS\USER\DESKTOP\CRASHSTEAMUSER\PROTOBUF-2.6.1RC1\SRC\GOOGLE\PROTOBUF\UNITTEST_IMPORT_PUBLIC_LITE.PROTO
+Debug\protoc -I../src --cpp_out=. ../src/google/protobuf/unittest_import_public_lite.proto
+^C:\USERS\USER\DESKTOP\CRASHSTEAMUSER\PROTOBUF-2.6.1RC1\SRC\GOOGLE\PROTOBUF\UNITTEST_LITE.PROTO
+Debug\protoc -I../src --cpp_out=. ../src/google/protobuf/unittest_lite.proto

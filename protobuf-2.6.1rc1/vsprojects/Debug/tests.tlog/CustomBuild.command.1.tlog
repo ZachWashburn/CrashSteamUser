@@ -1,0 +1,20 @@
+^C:\USERS\USER\DESKTOP\CRASHSTEAMUSER\PROTOBUF-2.6.1RC1\SRC\GOOGLE\PROTOBUF\COMPILER\CPP\CPP_TEST_BAD_IDENTIFIERS.PROTO
+Debug\protoc -I../src --cpp_out=. ../src/google/protobuf/compiler/cpp/cpp_test_bad_identifiers.proto
+^C:\USERS\USER\DESKTOP\CRASHSTEAMUSER\PROTOBUF-2.6.1RC1\SRC\GOOGLE\PROTOBUF\UNITTEST.PROTO
+Debug\protoc -I../src --cpp_out=. ../src/google/protobuf/unittest.proto
+^C:\USERS\USER\DESKTOP\CRASHSTEAMUSER\PROTOBUF-2.6.1RC1\SRC\GOOGLE\PROTOBUF\UNITTEST_CUSTOM_OPTIONS.PROTO
+Debug\protoc -I../src --cpp_out=. ../src/google/protobuf/unittest_custom_options.proto
+^C:\USERS\USER\DESKTOP\CRASHSTEAMUSER\PROTOBUF-2.6.1RC1\SRC\GOOGLE\PROTOBUF\UNITTEST_EMBED_OPTIMIZE_FOR.PROTO
+Debug\protoc -I../src --cpp_out=. ../src/google/protobuf/unittest_embed_optimize_for.proto
+^C:\USERS\USER\DESKTOP\CRASHSTEAMUSER\PROTOBUF-2.6.1RC1\SRC\GOOGLE\PROTOBUF\UNITTEST_IMPORT.PROTO
+Debug\protoc -I../src --cpp_out=. ../src/google/protobuf/unittest_import.proto
+^C:\USERS\USER\DESKTOP\CRASHSTEAMUSER\PROTOBUF-2.6.1RC1\SRC\GOOGLE\PROTOBUF\UNITTEST_IMPORT_PUBLIC.PROTO
+Debug\protoc -I../src --cpp_out=. ../src/google/protobuf/unittest_import_public.proto
+^C:\USERS\USER\DESKTOP\CRASHSTEAMUSER\PROTOBUF-2.6.1RC1\SRC\GOOGLE\PROTOBUF\UNITTEST_LITE_IMPORTS_NONLITE.PROTO
+Debug\protoc -I../src --cpp_out=. ../src/google/protobuf/unittest_lite_imports_nonlite.proto
+^C:\USERS\USER\DESKTOP\CRASHSTEAMUSER\PROTOBUF-2.6.1RC1\SRC\GOOGLE\PROTOBUF\UNITTEST_MSET.PROTO
+Debug\protoc -I../src --cpp_out=. ../src/google/protobuf/unittest_mset.proto
+^C:\USERS\USER\DESKTOP\CRASHSTEAMUSER\PROTOBUF-2.6.1RC1\SRC\GOOGLE\PROTOBUF\UNITTEST_NO_GENERIC_SERVICES.PROTO
+Debug\protoc -I../src --cpp_out=. ../src/google/protobuf/unittest_no_generic_services.proto
+^C:\USERS\USER\DESKTOP\CRASHSTEAMUSER\PROTOBUF-2.6.1RC1\SRC\GOOGLE\PROTOBUF\UNITTEST_OPTIMIZE_FOR.PROTO
+Debug\protoc -I../src --cpp_out=. ../src/google/protobuf/unittest_optimize_for.proto

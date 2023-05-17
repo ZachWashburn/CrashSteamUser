@@ -1,0 +1,1 @@
+C:\Users\user\Desktop\CrashSteamUser\protobuf-2.6.1rc1\vsprojects\Debug\libprotobuf.lib
