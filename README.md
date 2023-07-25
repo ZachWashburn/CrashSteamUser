@@ -2,7 +2,7 @@
 **PoC Code for Steam Bug Bounty, Allowing P2P Connections to Crash Clients, submitted to Valve's bug bounty program under "#1276762
 Improper memory buffer size calculation causes heap corruption in steamclient.dll CMsgSteamNetworkingP2PRendezvous signal parse"**
 
-*Valve Quickly Responded to, and Patched this bug within a month of initial reporting. Funds were awarded under their bug bounty program*
+*Valve Quickly Responded to, and Patched this bug within a month of initial reporting. Funds were awarded under their bug bounty program. HackerOne disclosure deadline has elapsed, allowing for the discussion of this bug*
 
 ## Technical Background 
 
